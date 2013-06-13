@@ -6,7 +6,7 @@
 Name:		rubygem-%{gemname}
 Summary: 	%{gemname}
 Version: 	2.10.0
-Release: 	1%{?dist}
+Release: 	2%{?dist}
 Group: 		Development/Languages
 License: 	GPLv2+ or Ruby
 URL:        http://%{gemname}.rubyforge.org/
