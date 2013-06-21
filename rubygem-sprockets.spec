@@ -4,8 +4,9 @@
 %define geminstdir %{gemdir}/gems/%{gemname}-%{version}
 
 Name:		rubygem-%{gemname}
+Epoch:      1
 Summary: 	%{gemname}
-Version: 	2.2.1
+Version: 	2.2.2
 Release: 	1%{?dist}
 Group: 		Development/Languages
 License: 	GPLv2+ or Ruby
@@ -53,5 +54,5 @@ rm -rf %{buildroot}
 %{gemdir}/specifications/%{gemname}-%{version}.gemspec
 
 %changelog
-* Tue Jun 4 2013 Sergey Mihailov <sergey.mihailov@gpm.int> - 2.2.1-1
+* Tue Jun 4 2013 Sergey Mihailov <sergey.mihailov@gmail.com> - 2.2.2-1
 - Initial package
